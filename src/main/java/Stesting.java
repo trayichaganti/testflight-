@@ -58,7 +58,7 @@ public class Stesting {
                 count = count + 1;
             }
         }
-        return count;
+        return 0;
     }
 
     public int LowercaseCount(String word) {
@@ -69,7 +69,7 @@ public class Stesting {
                 count = count + 1;
             }
         }
-        return count;
+        return 0;
     }
     }
 
