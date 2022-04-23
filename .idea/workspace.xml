@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="79305fb3-6e8e-4169-b60d-beeba4122675" name="Changes" comment="Test cases pass by bhavya">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stesting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StestingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StestingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,37 +55,32 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StestingTest.testUpperCase1">
-    <configuration name="Stesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stesting" />
-      <module name="ex1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StestingTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StestingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StestingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StestingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StestingTest.testLowerCase3">
     <configuration name="StestingTest.testLowerCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StestingTest" />
       <option name="METHOD_NAME" value="testLowerCase1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StestingTest.testLowerCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StestingTest" />
+      <option name="METHOD_NAME" value="testLowerCase2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StestingTest.testLowerCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StestingTest" />
+      <option name="METHOD_NAME" value="testLowerCase3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,13 +96,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StestingTest.testUpperCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StestingTest" />
+      <option name="METHOD_NAME" value="testUpperCase3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StestingTest.testUpperCase1" />
+        <item itemvalue="JUnit.StestingTest.testLowerCase3" />
+        <item itemvalue="JUnit.StestingTest.testLowerCase2" />
         <item itemvalue="JUnit.StestingTest.testLowerCase1" />
-        <item itemvalue="JUnit.StestingTest (1)" />
-        <item itemvalue="Application.Stesting" />
-        <item itemvalue="JUnit.StestingTest" />
+        <item itemvalue="JUnit.StestingTest.testUpperCase3" />
+        <item itemvalue="JUnit.StestingTest.testUpperCase1" />
       </list>
     </recent_temporary>
   </component>
