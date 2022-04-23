@@ -61,25 +61,24 @@ public class Stesting {
         return count;
     }
 
-    public int LowecaseCount(String word) {
+    public int LowercaseCount(String word) {
         int count = 0;
         char[] wordChars = word.toCharArray();
         for (char chr : wordChars) {
             if (Character.isLowerCase(chr)) {
                 count = count + 1;
-
             }
         }
         return count;
     }
-}
+    }
 
 
 
 
 
-    //Author: Bhavya Yaddula
-    //Description: This function is used to count the Lowercase letters in word
+
+
 
 
 
