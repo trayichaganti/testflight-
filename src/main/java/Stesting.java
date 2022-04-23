@@ -45,6 +45,32 @@ public class Stesting {
         StringBuilder sb = new StringBuilder(original);
         sb.reverse();
         return sb.toString();
+
+    }
+    //Author: Bhavya Yaddula
+    //Description: This function is used to count the Uppercase letters in word
+
+    public int UppercaseCount(String word) {
+        int count = 0;
+        char[] wordChars = word.toCharArray();
+        for (char chr : wordChars) {
+            if (Character.isUpperCase(chr)) {
+                count = count + 1;
+            }
+        }
+        return count;
+    }
+
+    public int LowecaseCount(String word) {
+        int count = 0;
+        char[] wordChars = word.toCharArray();
+        for (char chr : wordChars) {
+            if (Character.isLowerCase(chr)) {
+                count = count + 1;
+
+            }
+        }
+        return count;
     }
 }
 
@@ -52,27 +78,8 @@ public class Stesting {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    //Author: Bhavya Yaddula
+    //Description: This function is used to count the Lowercase letters in word
 
 
 
