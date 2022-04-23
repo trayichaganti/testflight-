@@ -1,4 +1,7 @@
 public class Stesting {
+    public static void main(String[] args){
+
+    }
     //Author: Trayi Chaganti
     //Description: This function is used to merge two strings
     public static String merge(String s1, String s2) {
@@ -48,30 +51,33 @@ public class Stesting {
 
     }
     //Author: Bhavya Yaddula
-    //Description: This function is used to count the Uppercase letters in word
-
-    public int UppercaseCount(String word) {
+    //Description: This function is used to count the Uppercase letters in the word
+    public static String UppercaseCount(String word) {
         int count = 0;
         char[] wordChars = word.toCharArray();
-        for (char chr : wordChars) {
-            if (Character.isUpperCase(chr)) {
+        for(char chr : wordChars) {
+            if(Character.isUpperCase(chr)){
                 count = count + 1;
             }
         }
-        return 0;
-    }
+        return String.valueOf(count);
 
-    public int LowercaseCount(String word) {
+    }
+    //Author: Bhavya Yaddula
+    //Description: This function is used to count the Lowercase letters in the word
+    public static String LowercaseCount(String word) {
         int count = 0;
         char[] wordChars = word.toCharArray();
-        for (char chr : wordChars) {
+        for (char chr : wordChars){
             if (Character.isLowerCase(chr)) {
-                count = count + 1;
+                count =count + 1;
             }
         }
-        return 0;
+        return String.valueOf(count);
     }
-    }
+}
+
+
 
 
 

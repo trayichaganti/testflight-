@@ -4,6 +4,7 @@ import org.junit.Test;
 
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class StestingTest {
     public static Stesting obj;
@@ -11,6 +12,7 @@ public class StestingTest {
     @BeforeClass
     public static void setup() {
         obj = new Stesting();
+        assertNotEquals(obj, null);
     }
 
     //Author: Trayi chaganti
@@ -60,19 +62,20 @@ public class StestingTest {
     }
 
     //Author: Bhavya Yaddula
-    //Description: This testcase is used to test the uppercase count function
-    @Test
-    public void testUpperCase1(){
-        assertEquals("2", obj.UppercaseCount("SalT"));
+    //Description: This test case is used to test the uppercase count function
+     @Test
+     public void testUpperCase1(){
+        assertEquals("2",obj.UppercaseCount("SalT"));
+
     }
-    //Author: Bhavya Yaddula
-    //Description: This testcase is used to test the lowercase count function
-    @Test
-    public void testLowerCase1(){
+     //Author: Bhavya Yaddula
+     //Description: this test case is used to test the lowercase count function
+     @Test
+     public void testLowerCase1(){
         assertEquals("2",obj.LowercaseCount("SalT"));
+
     }
 }
-
 
 
 
