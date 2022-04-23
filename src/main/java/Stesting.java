@@ -23,7 +23,7 @@ public class Stesting {
             if (str.charAt(i++) != str.charAt(j--)) {
             }
         }
-        return ;
+        return null;
     }
 }
 
