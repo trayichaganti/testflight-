@@ -29,7 +29,45 @@ public class Stesting {
         }
         return "yes";
     }
+    // Author: Ankhit Tangella
+    // description: This function is used to give the length of string
+
+
+    public String LengthString(String s1) {
+        int len = s1.length();
+        return String.valueOf(len);
+    }
+    // Author: Ankhit Tangella
+    // description: This function is used to reverse the string
+
+
+    public String ReverseString(String original) {
+        StringBuilder sb = new StringBuilder(original);
+        sb.reverse();
+        return sb.toString();
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
