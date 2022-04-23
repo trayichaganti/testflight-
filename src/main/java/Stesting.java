@@ -11,7 +11,7 @@ public class Stesting {
             if (i < s2.length())
                 result.append(s2.charAt(i));
         }
-        return result.toString();
+        return null;
 
     }
 
@@ -23,7 +23,7 @@ public class Stesting {
             if (str.charAt(i++) != str.charAt(j--)) {
             }
         }
-        return true;
+        return ;
     }
 }
 
