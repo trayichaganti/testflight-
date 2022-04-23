@@ -32,7 +32,7 @@ public class Stesting {
             if (arr[i] == x)
                 return i;
         }
-        return -1;
+        return 0;
     }
 }
 
