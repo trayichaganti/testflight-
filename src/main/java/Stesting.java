@@ -11,7 +11,7 @@ public class Stesting {
             if (i < s2.length())
                 result.append(s2.charAt(i));
         }
-        return null;
+        return result.toString();
 
     }
 
@@ -27,7 +27,7 @@ public class Stesting {
             }
 
         }
-        return null;
+        return "yes";
     }
 }
 
