@@ -13,7 +13,7 @@ public class Stesting {
                 result.append(s2.charAt(i));
 
         }
-        return 0;
+        return null;
     }
 }
 
