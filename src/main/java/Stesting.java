@@ -15,17 +15,26 @@ public class Stesting {
 
     }
 
-    public static boolean palindrome(int num) {
+    //Author: Trayi Chaganti
+    //Description: This function is used to check if number is palindrome or not
+    public static String palindrome(int num) {
         String str = String.valueOf(num);
         int i = 0;
         int j = str.length() - 1;
         while (i < j) {
             if (str.charAt(i++) != str.charAt(j--)) {
+                return "no";
             }
+
         }
         return null;
     }
 }
+
+
+
+
+
 
 
 

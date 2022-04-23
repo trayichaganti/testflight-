@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="79305fb3-6e8e-4169-b60d-beeba4122675" name="Changes" comment="Test cases fail by Trayi">
       <change beforePath="$PROJECT_DIR$/src/main/java/Stesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StestingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StestingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650737095791</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Test cases fail by Trayi">
+      <created>1650737251682</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1650737251682</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
