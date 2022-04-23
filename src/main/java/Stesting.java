@@ -1,7 +1,7 @@
 public class Stesting {
 
-    //AUTHOR:
-    //Description:
+    //AUTHOR: Trayi chaganti
+    //Description: This function is used to merge two strings.
     public static String merge(String s1, String s2) {
         StringBuilder result = new StringBuilder();
         if (s1 == "" || s2 == "")
