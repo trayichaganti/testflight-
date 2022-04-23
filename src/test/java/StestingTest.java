@@ -16,8 +16,9 @@ public class StestingTest {
     //Author: Trayi Chaganti
     //Description: This test case is used to merge two strings.
     @Test
-     public void testmerge1(){
+    public void testmerge1(){
         assertEquals("Staomy", obj.merge("Sam", "toy"));
+
     }
 }
 
