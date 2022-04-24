@@ -135,7 +135,15 @@ public class StestingTest {
     public void integrationtest1(){
         assertEquals("4", obj.ReverseString(obj.LengthString("toys")));
     }
+    // Author: Ankhit tangella
+    // Description: This test case is used to test both the uppercase count and reverse string functions
+    @Test
+    public void integrationtest2(){
+        assertEquals("2", obj.ReverseString((obj.UppercaseCount("SaT"))));
+    }
 }
+
+
 
 
 
