@@ -129,7 +129,16 @@ public class StestingTest {
         assertEquals("3",obj.LowercaseCount("lll"));
 
     }
+    //Author: Trayi Chaganti
+    //Description: This test case is used to test both reverse string and length of string functions
+    @Test
+    public void integrationtest1(){
+        assertEquals("4", obj.ReverseString(obj.LengthString("toys")));
+    }
 }
+
+
+
 
 
 

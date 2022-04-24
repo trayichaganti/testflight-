@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79305fb3-6e8e-4169-b60d-beeba4122675" name="Changes" comment="All tests fail">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stesting.java" afterDir="false" />
+    <list default="true" id="79305fb3-6e8e-4169-b60d-beeba4122675" name="Changes" comment="All tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StestingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StestingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,12 +55,32 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StestingTest.testLowerCase3">
-    <configuration name="StestingTest.testLowerCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StestingTest.integrationtest1">
+    <configuration name="StestingTest.integrationtest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StestingTest" />
-      <option name="METHOD_NAME" value="testLowerCase1" />
+      <option name="METHOD_NAME" value="integrationtest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StestingTest.integrationtest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StestingTest" />
+      <option name="METHOD_NAME" value="integrationtest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StestingTest.integrationtest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StestingTest" />
+      <option name="METHOD_NAME" value="integrationtest3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,26 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StestingTest.testUpperCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StestingTest" />
-      <option name="METHOD_NAME" value="testUpperCase1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StestingTest.testUpperCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StestingTest" />
-      <option name="METHOD_NAME" value="testUpperCase3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StestingTest.integrationtest1" />
+        <item itemvalue="JUnit.StestingTest.integrationtest2" />
+        <item itemvalue="JUnit.StestingTest.integrationtest3" />
         <item itemvalue="JUnit.StestingTest.testLowerCase3" />
         <item itemvalue="JUnit.StestingTest.testLowerCase2" />
-        <item itemvalue="JUnit.StestingTest.testLowerCase1" />
-        <item itemvalue="JUnit.StestingTest.testUpperCase3" />
-        <item itemvalue="JUnit.StestingTest.testUpperCase1" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650755320791</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="All tests">
+      <created>1650755507855</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1650755507855</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,6 +366,7 @@
     <MESSAGE value="Test cases pass by bhavya" />
     <MESSAGE value="All tests pass" />
     <MESSAGE value="All tests fail" />
-    <option name="LAST_COMMIT_MESSAGE" value="All tests fail" />
+    <MESSAGE value="All tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="All tests" />
   </component>
 </project>
