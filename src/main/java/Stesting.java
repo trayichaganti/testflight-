@@ -47,7 +47,7 @@ public class Stesting {
     public String ReverseString(String original) {
         StringBuilder sb = new StringBuilder(original);
         sb.reverse();
-        return null;
+        return sb.toString();
 
     }
     //Author: Bhavya Yaddula
@@ -60,7 +60,7 @@ public class Stesting {
                 count = count + 1;
             }
         }
-        return null;
+        return String.valueOf(count);
 
     }
     //Author: Bhavya Yaddula
