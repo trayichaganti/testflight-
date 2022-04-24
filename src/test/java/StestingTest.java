@@ -158,11 +158,11 @@ public class StestingTest {
     public void integrationtest2(){
         assertEquals("2", obj.ReverseString((obj.UppercaseCount("SaT"))));
     }
-    //Author Bhavya Yaddula
-    //Description This test case is used to test the uppercase count and lower case count functions
+    // Author: Bhavya Yaddula
+    // Description: This test case is used to test both the Uppercase and lowercase count functions
     @Test
-    public void integrationtest3(){
-        assertEquals(2, obj.UppercaseCount(obj.LowercaseCount("HIII")));
+    public void intergrationtest3(){
+        assertEquals("0",obj.UppercaseCount(obj.LowercaseCount("HIII")));
     }
 
 
