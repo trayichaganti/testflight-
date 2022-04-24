@@ -60,7 +60,7 @@ public class Stesting {
                 count = count + 1;
             }
         }
-        return null;
+        return String.valueOf(count);
 
     }
     //Author: Bhavya Yaddula
@@ -73,7 +73,7 @@ public class Stesting {
                 count =count + 1;
             }
         }
-        return null;
+        return String.valueOf(count);
     }
 }
 
