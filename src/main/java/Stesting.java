@@ -38,7 +38,7 @@ public class Stesting {
 
     public String LengthString(String s1) {
         int len = s1.length();
-        return String.valueOf(len);
+        return null;
     }
     // Author: Ankhit Tangella
     // description: This function is used to reverse the string
@@ -47,7 +47,7 @@ public class Stesting {
     public String ReverseString(String original) {
         StringBuilder sb = new StringBuilder(original);
         sb.reverse();
-        return sb.toString();
+        return null;
 
     }
     //Author: Bhavya Yaddula
