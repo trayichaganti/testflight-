@@ -14,7 +14,7 @@ public class Stesting {
             if (i < s2.length())
                 result.append(s2.charAt(i));
         }
-        return null;
+        return result.toString();
 
     }
 
@@ -30,7 +30,7 @@ public class Stesting {
             }
 
         }
-        return null;
+        return "yes";
     }
     // Author: Ankhit Tangella
     // description: This function is used to give the length of string
@@ -38,7 +38,7 @@ public class Stesting {
 
     public String LengthString(String s1) {
         int len = s1.length();
-        return null;
+        return String.valueOf(len);
     }
     // Author: Ankhit Tangella
     // description: This function is used to reverse the string
@@ -73,7 +73,7 @@ public class Stesting {
                 count =count + 1;
             }
         }
-        return null;
+        return String.valueOf(count);
     }
 }
 
