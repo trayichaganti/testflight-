@@ -50,19 +50,19 @@ public class Stesting {
     }
     //Author: Bhavya Yaddula
     //description: This function is used to count the Uppercase letters in the word
-    public static string uppercaseCount(String word){
+    public static String UppercaseCount(String word) {
     int count = 0;
-    char[] wordChars = word.toCharArray()
+    char[] wordChars = word.toCharArray();
     for (char chr: wordChars) {
         if(Character.isUpperCase(chr)){
             count = count + 1;
         }
     }
-    return null;
+    return String.valueOf(count);
     }
     //Author: Bhavya Yaddula
     //Description: This function is used to count the Lowercase letters in the word
-    public static String LowercaseCount(Stringword) {
+    public static String LowercaseCount(String word) {
         int count = 0;
         char[] wordChars = word.toCharArray();
         for (char chr : wordChars){
@@ -70,7 +70,7 @@ public class Stesting {
                 count = count + 1;
             }
         }
-        return null;
+        return String.valueOf(count);
     }
 
 }

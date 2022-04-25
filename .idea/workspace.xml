@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79305fb3-6e8e-4169-b60d-beeba4122675" name="Changes" comment="fail test cases by Ankhit" />
+    <list default="true" id="79305fb3-6e8e-4169-b60d-beeba4122675" name="Changes" comment="fail test cases by Bhavya" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,17 +106,6 @@
       <option name="MAIN_CLASS_NAME" value="StestingTest" />
       <option name="METHOD_NAME" value="testpalindrome1" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -385,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650893735462</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="fail test cases by Bhavya">
+      <created>1650895476908</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1650895476908</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,6 +415,7 @@
     <MESSAGE value="Ankhit integration test fail" />
     <MESSAGE value="Bhavya integration test pass" />
     <MESSAGE value="fail test cases by Ankhit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fail test cases by Ankhit" />
+    <MESSAGE value="fail test cases by Bhavya" />
+    <option name="LAST_COMMIT_MESSAGE" value="fail test cases by Bhavya" />
   </component>
 </project>
