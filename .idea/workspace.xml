@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79305fb3-6e8e-4169-b60d-beeba4122675" name="Changes" comment="Bhavya integration test pass" />
+    <list default="true" id="79305fb3-6e8e-4169-b60d-beeba4122675" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StestingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StestingTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StestingTest.integrationtest1">
+  <component name="RunManager" selected="JUnit.StestingTest.testmerge1">
     <configuration name="StestingTest.integrationtest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex1" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,21 +94,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StestingTest.testLowerCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StestingTest.testmerge1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StestingTest" />
-      <option name="METHOD_NAME" value="testLowerCase2" />
+      <option name="METHOD_NAME" value="testmerge1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StestingTest.testLowerCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StestingTest.testpalindrome1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StestingTest" />
-      <option name="METHOD_NAME" value="testLowerCase3" />
+      <option name="METHOD_NAME" value="testpalindrome1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StestingTest.testmerge1" />
+        <item itemvalue="JUnit.StestingTest.testpalindrome1" />
         <item itemvalue="JUnit.StestingTest.integrationtest1" />
         <item itemvalue="JUnit.StestingTest.integrationtest2" />
         <item itemvalue="JUnit.StestingTest.integrationtest3" />
-        <item itemvalue="JUnit.StestingTest.testLowerCase3" />
-        <item itemvalue="JUnit.StestingTest.testLowerCase2" />
       </list>
     </recent_temporary>
   </component>
