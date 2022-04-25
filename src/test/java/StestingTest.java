@@ -41,7 +41,7 @@ public class StestingTest
     //Description: This test case is used to test the reverse string function
     @Test
     public void testreverse1(){
-        assertEquals("hi" , obj.ReverseString('ih'));
+        assertEquals("hi" , obj.ReverseString("ih"));
     }
 }
 

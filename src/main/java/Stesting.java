@@ -35,9 +35,9 @@ public class Stesting {
     // Author: Ankhit Tangella
     // Description: This function is used to give the length of the string
 
-    public String Length(Strings1) {
-        int len = s1length();
-        return null;
+    public String LengthString(String s1) {
+        int len = s1.length();
+        return String.valueOf(len);
     }
 
     // Author: Ankhit Tangella
@@ -46,8 +46,7 @@ public class Stesting {
     public String ReverseString(String original){
         StringBuilder sb = new StringBuilder(original);
         sb.reverse();
-        return null;
-
+        return sb.toString();
     }
 
 
