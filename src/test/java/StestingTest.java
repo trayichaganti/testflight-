@@ -25,7 +25,7 @@ public class StestingTest {
     //Description: This test case is used to test the palindrome function
     @Test
     public void testpalindrome1(){
-        assertEquals(true,obj.palindrome(121))
+        assertEquals("yes",obj.palindrome(121))
         ;
     }
 

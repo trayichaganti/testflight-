@@ -17,11 +17,11 @@ public class Stesting {
                 result.append(s2.charAt(i));
 
         }
-        return null;
+        return result.toString();
     }
     //Author: Trayi Chaganti
     //Description: This function is used to check if number is palindrome or not
-    public static Stringpalindrome(int num){
+    public static String palindrome(int num){
         String str = String.valueOf(num);
         int i = 0;
         int j = str.length() - 1;
@@ -30,7 +30,7 @@ public class Stesting {
                 return "no";
             }
         }
-        return "null"
+        return "yes";
     }
 }
 
