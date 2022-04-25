@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79305fb3-6e8e-4169-b60d-beeba4122675" name="Changes" comment="fail test cases by Bhavya" />
+    <list default="true" id="79305fb3-6e8e-4169-b60d-beeba4122675" name="Changes" comment="Pass test cases by Bhavya">
+      <change beforePath="$PROJECT_DIR$/src/test/java/StestingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StestingTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -381,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650895476908</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Pass test cases by Bhavya">
+      <created>1650895736316</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1650895736316</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -416,6 +425,7 @@
     <MESSAGE value="Bhavya integration test pass" />
     <MESSAGE value="fail test cases by Ankhit" />
     <MESSAGE value="fail test cases by Bhavya" />
-    <option name="LAST_COMMIT_MESSAGE" value="fail test cases by Bhavya" />
+    <MESSAGE value="Pass test cases by Bhavya" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pass test cases by Bhavya" />
   </component>
 </project>
