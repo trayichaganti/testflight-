@@ -43,6 +43,18 @@ public class StestingTest
     public void testreverse1(){
         assertEquals("hi" , obj.ReverseString("ih"));
     }
+    //Author: Bhavya Yaddula
+    //Description: This test case is used to test the Uppercase count function
+    @Test
+    public void testUpperCase1(){
+        assertEquals("2", obj.UppercaseCount("SalT"));
+        }
+    //Author: Bhavya Yaddula
+    //Description: This test case is used to test the Lowercase count funtcion
+    @Test
+    public void testLowerCase1(){
+        assertEquals("2",obj.LowecaseCount("SalT"));
+    }
 }
 
 
