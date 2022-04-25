@@ -32,6 +32,27 @@ public class Stesting {
         }
         return "yes";
     }
+    // Author: Ankhit Tangella
+    // Description: This function is used to give the length of the string
+
+    public String Length(Strings1) {
+        int len = s1length();
+        return null;
+    }
+
+    // Author: Ankhit Tangella
+    // Description: This fuction is used to reverse the string
+
+    public String ReverseString(String original){
+        StringBuilder sb = new StringBuilder(original);
+        sb.reverse();
+        return null;
+
+    }
+
+
+
+
 }
 
 

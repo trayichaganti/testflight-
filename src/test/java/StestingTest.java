@@ -6,7 +6,8 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
-public class StestingTest {
+public class StestingTest
+{
     public static Stesting obj;
 
     @BeforeClass
@@ -29,7 +30,19 @@ public class StestingTest {
         ;
     }
 
+    //Author: Ankhit Tangella
+    //Description: This test case is used to test the length of the string function
+    @Test
+    public void testlength1(){
+        assertEquals("7" , obj.LengthString("testing"));
+    }
 
+    //Author: Ankhit Tangella
+    //Description: This test case is used to test the reverse string function
+    @Test
+    public void testreverse1(){
+        assertEquals("hi" , obj.ReverseString('ih'));
+    }
 }
 
 
