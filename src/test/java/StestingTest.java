@@ -6,8 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
-public class StestingTest
-{
+public class StestingTest {
     public static Stesting obj;
 
     @BeforeClass
@@ -16,14 +15,16 @@ public class StestingTest
         assertNotEquals(obj, null);
     }
 
-   //Author: Trayi chaganti
-    //Description: This test case is used to test merge two strings function@Test
+    //Author: Trayi chaganti
+    //Description: This test case is used to test merge two strings function
+    @Test
     public void testpalindrome2() {
         assertEquals(false, obj.palindrome(123));
     }
 
     //Author: Trayi chaganti
-    //Description: This test case is used to test merge two strings function@Test
+    //Description: This test case is used to test merge two strings function
+    @Test
     public void testpalindrome3() {
         assertEquals(true, obj.palindrome(111));
     }
@@ -125,21 +126,24 @@ public class StestingTest
 
         assertEquals("4", obj.ReverseString(obj.LengthString("toys")));
     }
+
     // Author: Ankhit tangella
     // Description: This test case is used to test both the uppercase count and reverse string functions
     @Test
-    public void integrationtest2(){
+    public void integrationtest2() {
         assertEquals("2", obj.ReverseString((obj.UppercaseCount("SaT"))));
     }
+
     // Author: Bhavya Yaddula
     // Description: This test case is used to test both the Uppercase and lowercase count functions
     @Test
-    public void intergrationtest3(){
-        assertEquals("0",obj.UppercaseCount(obj.LowercaseCount("HIII")));
+    public void intergrationtest3() {
+        assertEquals("0", obj.UppercaseCount(obj.LowercaseCount("HIII")));
     }
-
-
 }
+
+
+
 
 
 
