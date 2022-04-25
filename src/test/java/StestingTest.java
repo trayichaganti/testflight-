@@ -14,19 +14,45 @@ public class StestingTest {
         obj = new Stesting();
         assertNotEquals(obj, null);
     }
+    //Author: Trayi chaganti
+    //Description: This test case is used to test the merging strings function
+    @Test
+    public void testmerge1(){
+        assertEquals("Staomy", obj.merge("Sam", "toy"));
+    }
+    //Author: Trayi chaganti
+    //Description: This test case is used to test the merging strings function
+    @Test
+    public void testmerge2(){
+        assertEquals("StAoMy",obj.merge("SAM","toy"));
+    }
+    //Author: Trayi chaganti
+    //Description: This test case is used to test the merging strings function
+    @Test
+    public void testmerge3(){
+        assertEquals("error",obj.merge("","toy"));
+    }
+    //Author: Trayi chaganti
+    //Description: This test case is used to test the palindrome function
+    @Test
+    public void testpalindrome1(){
+        assertEquals("yes",obj.palindrome(121));
+    }
+
+
 
     //Author: Trayi chaganti
     //Description: This test case is used to test merge two strings function
     @Test
     public void testpalindrome2() {
-        assertEquals(false, obj.palindrome(123));
+        assertEquals("no", obj.palindrome(123));
     }
 
     //Author: Trayi chaganti
     //Description: This test case is used to test merge two strings function
     @Test
     public void testpalindrome3() {
-        assertEquals(true, obj.palindrome(111));
+        assertEquals("yes", obj.palindrome(111));
     }
 
     //Author: Ankhit Tangella

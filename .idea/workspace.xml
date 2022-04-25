@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79305fb3-6e8e-4169-b60d-beeba4122675" name="Changes" comment="Pass test cases by Bhavya">
+    <list default="true" id="79305fb3-6e8e-4169-b60d-beeba4122675" name="Changes" comment="ALL TESTS">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StestingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StestingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,32 +62,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StestingTest.testmerge1">
-    <configuration name="StestingTest.integrationtest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StestingTest.testpalindrome3">
+    <configuration name="StestingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StestingTest" />
-      <option name="METHOD_NAME" value="integrationtest1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StestingTest.integrationtest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StestingTest.intergrationtest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StestingTest" />
-      <option name="METHOD_NAME" value="integrationtest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StestingTest.integrationtest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ex1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StestingTest" />
-      <option name="METHOD_NAME" value="integrationtest3" />
+      <option name="METHOD_NAME" value="intergrationtest3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,23 +92,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StestingTest.testpalindrome1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StestingTest.testpalindrome2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ex1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StestingTest" />
-      <option name="METHOD_NAME" value="testpalindrome1" />
+      <option name="METHOD_NAME" value="testpalindrome2" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StestingTest.testpalindrome3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ex1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StestingTest" />
+      <option name="METHOD_NAME" value="testpalindrome3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StestingTest.testpalindrome3" />
+        <item itemvalue="JUnit.StestingTest.testpalindrome2" />
+        <item itemvalue="JUnit.StestingTest" />
+        <item itemvalue="JUnit.StestingTest.intergrationtest3" />
         <item itemvalue="JUnit.StestingTest.testmerge1" />
-        <item itemvalue="JUnit.StestingTest.testpalindrome1" />
-        <item itemvalue="JUnit.StestingTest.integrationtest1" />
-        <item itemvalue="JUnit.StestingTest.integrationtest2" />
-        <item itemvalue="JUnit.StestingTest.integrationtest3" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650895736316</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="ALL TESTS">
+      <created>1650897596775</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1650897596775</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -426,6 +444,7 @@
     <MESSAGE value="fail test cases by Ankhit" />
     <MESSAGE value="fail test cases by Bhavya" />
     <MESSAGE value="Pass test cases by Bhavya" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pass test cases by Bhavya" />
+    <MESSAGE value="ALL TESTS" />
+    <option name="LAST_COMMIT_MESSAGE" value="ALL TESTS" />
   </component>
 </project>
